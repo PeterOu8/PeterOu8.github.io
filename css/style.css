@@ -1,15 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 body {
     display: flex;
-    background-color: black;
+    background-color: #89d47f;
 
-    color: aqua;
-    font-family: 'Noto Sans Mono', monospace;
+    color: #C1C6D5;
 
     flex-direction: column;
     scroll-behavior: smooth;
@@ -19,6 +18,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 header {
@@ -29,21 +29,37 @@ header {
 ul {
     display: flex;
     flex-direction: row;
-    padding: 1vw;
+    margin-right: 5vw;
 }
 
 li {
     list-style: none;
+    padding: 1vw;
 }
 a {
     text-decoration: none;
 }
 
 #logo {
+    margin-left: 2vw;
     font-family: 'Bungee Spice', cursive;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer ul {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+footer li {
+    padding: 0;
+}
 main {
     display: block;
 }
