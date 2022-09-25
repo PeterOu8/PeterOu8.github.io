@@ -4,3 +4,27 @@
     font-family: sans-serif;
 }
 
+body {
+    display: flex;
+    background-color: black;
+    color: aqua;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+}
+
+header {
+    font-family: 'DynaPuff', cursive;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
