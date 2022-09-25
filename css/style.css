@@ -7,24 +7,43 @@
 body {
     display: flex;
     background-color: black;
+
     color: aqua;
+    font-family: 'Noto Sans Mono', monospace;
+
     flex-direction: column;
     scroll-behavior: smooth;
 }
 
 nav {
-    position: fixed;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header {
-    font-family: 'DynaPuff', cursive;
+
 }
+
 
 ul {
     display: flex;
     flex-direction: row;
+    padding: 1vw;
+}
+
+li {
+    list-style: none;
 }
 a {
     text-decoration: none;
+}
+
+#logo {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 2vw;
+}
+
+main {
+    display: block;
 }
