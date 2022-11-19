@@ -25,11 +25,27 @@
             </nav>
         </header>
 
+        <div class= "projectContainer">
+            <div class="project">
+            </div>
+            <div class="project">
+            </div>
+            <div class="project">
+            </div>
+        </div>
+
         <footer>
             <ul>
                 <li><a href="https://github.com/PeterOu8">Github</a></li>
                 <li><a href="https://www.instagram.com/peteo_o/">Instagram</a></li>
             </ul>
         </footer>
+        <script>
+            let projectContainer = document.querySelector(".projectContainer");
+            projectContainer.addEventListener("wheel", (event)=> {
+                event.preventDefault();
+                projectContainer.scrollLeft += 3 * event.deltaY;
+            });
+        </script>
     </body>
 </html>

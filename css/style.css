@@ -21,6 +21,16 @@ nav {
     margin-top: 1vh;
 }
 
+section {
+    margin: 7%;
+    display: flex;
+}
+
+footer {
+    margin-left: 2%;
+    margin-bottom: 4%;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -31,6 +41,7 @@ li {
     list-style: none;
     padding: 1vw;
 }
+
 a {
     text-decoration: none;
     font-size: 1.5vw;
@@ -39,7 +50,7 @@ a {
 #logo {
     margin-left: 5vw;
     font-family: 'Bungee Spice', cursive;
-    font-size: 2vw;
+    font-size: 3vh;
 }
 
 footer {
@@ -49,7 +60,6 @@ footer {
 
 footer ul {
     margin-left: 2vw;
-    display: flex;
     flex-direction: column;
 }
 
@@ -80,3 +90,25 @@ h1 {
     color: #CC7832;
 }
 
+.projectContainer {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.project{
+    width: 100vw;
+    height: 88vh;
+    flex-shrink: 0;
+}
+
+.projectContainer :nth-child(1) {
+    background-color:#629755
+}
+
+.projectContainer :nth-child(12) {
+    background-color: #A9B7C6;
+}
+
+.projectContainer :nth-child(3) {
+    background-color: #9876AA;
+}
