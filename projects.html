@@ -44,7 +44,8 @@
             let projectContainer = document.querySelector(".projectContainer");
             projectContainer.addEventListener("wheel", (event)=> {
                 event.preventDefault();
-                projectContainer.scrollLeft += 3 * event.deltaY;
+                // projectContainer.scrollLeft += 3 * event.deltaY;
+                projectContainer.scrollLeft += event.deltaY > 0 ? screen.width: -screen.width;
             });
         </script>
     </body>
